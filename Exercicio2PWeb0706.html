@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+	<html lang="pt-br">
+	<head><!-- Exemplo de comentário-->
+	<meta charset="utf-8">
+	<meta name="author" content="Azevedo">
+	<meta name="keywords" content="Html 5, CSS, Semânticas">
+	<meta name="description" content="Programaçao de HTML 5, Programação em CSS, conceitos básicos">
+	
+	<link type="text/css" href="final.css" rel="StyleSheet"  />
+	
+	
+	
+  <title> Atividade Formulário </title>
+</head>
+<body>
+	<h1> Formulário </h1>
+	Dados Pessoais
+	<form>
+        <p><label> Nome: </label>
+        <input type="text" name="txtnome" style="width:300" placeholder="Digite seu Nome" required> </p>
+
+        <p><label> Endereço: </label>
+            <input type="text" name="txtendereco" style="width:300" placeholder="Digite seu Endereço" required> </p>
+
+        <p><label> Cidade: </label>
+            <input type="text" name="txtcidade" style="width:300" placeholder="Digite sua Cidade" required> </p>
+
+        <p><label> Estado: </label>
+            <select name="estado">
+                <option value="SP"> São Paulo</option>
+                <option value="MG"> Minas Gerais</option>
+                <option value="RJ"> Rio de Janeiro</option>
+                <option value="ES"> Espírito Santo</option>
+            </select></p>
+
+    <p><h1> Dados Profissionais </h1></p>
+        <p> Natureza do Cargo </p>
+            <p> <input type="radio" name="cargo" value="gerencia" /> Gerência
+                <input type="radio" name="cargo" value="financeiro" /> Financeiro
+                <input type="radio" name="cargo" value="recepcao" /> Recepção
+                <input type="radio" name="cargo" value="adm" /> Administrativo
+                <input type="radio" name="cargo" value="juridico" /> Jurídico
+            </p>
+
+        <p><h1> Área de Interesse </h1></p>
+            <p> <input type="checkbox" name="computacao" value="computacao" /> Computação
+             <input type="checkbox" name="biologia" value="biologia" /> Biologia
+             <input type="checkbox" name="meio-ambiente" value="meio-ambiente" /> Meio Ambiente
+             <input type="checkbox" name="engenharia" value="engenharia" /> Engenharia
+             <input type="checkbox" name="historia" value="historia" /> História
+            </p>
+        <label> Mini-currículo: </label>
+        <textarea rows="5" cols="40"> </textarea> <br> <br>
+
+        <input type="submit" value="Enviar" class="aprovar"> <input type="button" value="Limpar" class="cancelar">
+        </form>
+
+        <br><br><br>
+	<p>Próxima Atividade </p>
+	<a href="Exercicio3PWeb0706.html"><img src="avançar.png" height="80px" width="80px"></a>
+
+
+
+
+
+</body>
+</html>
